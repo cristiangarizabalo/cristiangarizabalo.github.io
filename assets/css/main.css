@@ -138,7 +138,7 @@ header {
 /* HOME */
 
 section {
-    padding: 4.5rem 0 rem;
+    padding: 6rem 0 5rem;
 }
 
 .home {
@@ -189,4 +189,20 @@ section {
 .about-text p { 
     font-size: 0.938rem;
     margin: 1rem 0 1rem;
+}
+
+/* SERVICIOS */
+
+.sales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 2.4rem;
+}
+
+.sales .box {
+    padding: 20px;
+    background-color: #e2e2e2;
+    box-shadow: #cfcfcf;
+    text-align: center;
+    border-radius: 2rem;
 }
