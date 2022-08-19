@@ -172,7 +172,7 @@ section {
 }
 
 .about-img img {
-    border-radius: 3rem 0 3rem 3rem;
+    border-radius: 1.8rem 0 1.8rem 1.8rem;
 }
 
 .about-text span {
@@ -202,7 +202,12 @@ section {
 .sales .box {
     padding: 20px;
     background-color: #e2e2e2;
-    box-shadow: #cfcfcf;
     text-align: center;
-    border-radius: 2rem;
+    border-radius: 1.8rem;
+}
+
+.sales .box:hover {
+    background: var(--quiento);
+    color: var(--primero);
+    transition: 0.4s all linear;
 }
