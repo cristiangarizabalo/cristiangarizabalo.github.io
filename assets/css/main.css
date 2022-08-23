@@ -211,3 +211,11 @@ section {
     color: var(--primero);
     transition: 0.4s all linear;
 }
+
+.sales .box .bx {
+    padding: 10px;
+    border-radius: 50%;
+    background: var(--primero);
+    color: var(--quiento);
+    font-size: 20px;
+}
