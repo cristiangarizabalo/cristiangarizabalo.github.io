@@ -338,9 +338,11 @@ section {
 .newsletter form input {
     border: none;
     outline: none;
+    font-size: 0.938rem;
     font-family: var(--body-font);
 }
 
 .newsletter #email-box {
     width: 280px;
+    background: #dadada;;
 }
