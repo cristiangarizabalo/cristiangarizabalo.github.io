@@ -171,6 +171,10 @@ section {
     gap: 2rem;
 }
 
+.about .content-btn{
+    margin: 2rem 0 0;
+}
+
 .about-img img {
     border-radius: 1.8rem 0 1.8rem 1.8rem;
 }
